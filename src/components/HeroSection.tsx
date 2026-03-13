@@ -36,12 +36,12 @@ const HeroSection = () => {
           transition={{ delay: 0.9, duration: 0.6 }}
           className="mt-8"
         >
-          <a
-            href="#destinations"
+          <button
+            onClick={() => navigate("/travel-dream")}
             className="inline-block border border-primary-foreground/60 text-primary-foreground px-8 py-3 text-sm font-body tracking-widest uppercase hover:bg-primary-foreground/10 transition-all"
           >
             Start With Where
-          </a>
+          </button>
         </motion.div>
       </div>
     </section>
